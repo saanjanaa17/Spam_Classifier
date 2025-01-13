@@ -53,8 +53,8 @@ The dataset is stored in a .csv file (SMSSpamCollection), and it is used for bot
     
 ### Step 5: Model Evaluation
 * The trained model is evaluated using the following metrics:
-  *Accuracy: Measures the proportion of correct predictions made by the model.
-  *Classification Report: Provides additional performance metrics such as precision, recall, and F1-score for each class (Spam or Ham).
+  * Accuracy: Measures the proportion of correct predictions made by the model.
+  * Classification Report: Provides additional performance metrics such as precision, recall, and F1-score for each class (Spam or Ham).
     ```python
         print(accuracy_score(y_test, y_pred))
         print(classification_report(y_test, y_pred))
